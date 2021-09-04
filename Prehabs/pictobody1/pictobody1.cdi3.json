@@ -1,0 +1,189 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh3",
+			"GroupId": "ParamGroup8",
+			"Name": "[0]右二の腕"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh6",
+			"GroupId": "ParamGroup",
+			"Name": "[0]左二の腕"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh2",
+			"GroupId": "ParamGroup3",
+			"Name": "[0]右手の甲"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh5",
+			"GroupId": "ParamGroup2",
+			"Name": "[0]左手の甲"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh8",
+			"GroupId": "ParamGroup5",
+			"Name": "[0]左すね"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh9",
+			"GroupId": "ParamGroup6",
+			"Name": "[0]左もも"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh11",
+			"GroupId": "ParamGroup7",
+			"Name": "[0]右すね"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh12",
+			"GroupId": "ParamGroup9",
+			"Name": "[0]右もも"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh13",
+			"GroupId": "ParamGroup10",
+			"Name": "[0]胴"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh14",
+			"GroupId": "ParamGroup4",
+			"Name": "[0]頭"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup8",
+			"GroupId": "",
+			"Name": "右二の腕"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "左二の腕"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "右手の甲"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "左手の甲"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "左すね"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "左もも"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "右すね"
+		},
+		{
+			"Id": "ParamGroup9",
+			"GroupId": "",
+			"Name": "右もも"
+		},
+		{
+			"Id": "ParamGroup10",
+			"GroupId": "",
+			"Name": "胴"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "頭"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "ArtMesh2_Skinning",
+			"Name": "右手の甲(スキニング)"
+		},
+		{
+			"Id": "Part3",
+			"Name": "右手の甲(回転)"
+		},
+		{
+			"Id": "ArtMesh3_Skinning",
+			"Name": "右二の腕(スキニング)"
+		},
+		{
+			"Id": "Part8",
+			"Name": "右二の腕(回転)"
+		},
+		{
+			"Id": "ArtMesh5_Skinning",
+			"Name": "左手の甲(スキニング)"
+		},
+		{
+			"Id": "Part2",
+			"Name": "左手の甲(回転)"
+		},
+		{
+			"Id": "ArtMesh6_Skinning",
+			"Name": "左二の腕(スキニング)"
+		},
+		{
+			"Id": "Part",
+			"Name": "左二の腕(回転)"
+		},
+		{
+			"Id": "ArtMesh8_Skinning",
+			"Name": "左すね(スキニング)"
+		},
+		{
+			"Id": "Part5",
+			"Name": "左すね(回転)"
+		},
+		{
+			"Id": "ArtMesh9_Skinning",
+			"Name": "左もも(スキニング)"
+		},
+		{
+			"Id": "Part6",
+			"Name": "左もも(回転)"
+		},
+		{
+			"Id": "ArtMesh11_Skinning",
+			"Name": "右すね(スキニング)"
+		},
+		{
+			"Id": "Part7",
+			"Name": "右すね(回転)"
+		},
+		{
+			"Id": "ArtMesh12_Skinning",
+			"Name": "右もも(スキニング)"
+		},
+		{
+			"Id": "Part9",
+			"Name": "右もも(回転)"
+		},
+		{
+			"Id": "ArtMesh13_Skinning",
+			"Name": "胴(スキニング)"
+		},
+		{
+			"Id": "Part10",
+			"Name": "胴(回転)"
+		},
+		{
+			"Id": "ArtMesh14_Skinning",
+			"Name": "頭(スキニング)"
+		},
+		{
+			"Id": "Part4",
+			"Name": "頭(回転)"
+		}
+	]
+}
