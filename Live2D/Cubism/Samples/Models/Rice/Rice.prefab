@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4482887219491750}
   - component: {fileID: 114586630905516060}
-  - component: {fileID: 8597845082499495560}
+  - component: {fileID: 1643043780902902}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_1_ArtMesh81
   m_TagString: Untagged
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 78
   Value: 0
---- !u!114 &8597845082499495560
+--- !u!114 &1643043780902902
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4421961002154722}
   - component: {fileID: 114635134338054502}
-  - component: {fileID: 1400577398345696622}
+  - component: {fileID: 3573196575073413621}
   m_Layer: 0
   m_Name: ParamFlameShaking
   m_TagString: Untagged
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 27
   Value: 0
---- !u!114 &1400577398345696622
+--- !u!114 &3573196575073413621
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -358,7 +358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4055024359860556}
   - component: {fileID: 114294083836338472}
-  - component: {fileID: 2069410513966277922}
+  - component: {fileID: 3994619652882978908}
   m_Layer: 0
   m_Name: ParamMagicPowersBThicknesses
   m_TagString: Untagged
@@ -394,7 +394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 48
   Value: 0
---- !u!114 &2069410513966277922
+--- !u!114 &3994619652882978908
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -646,7 +646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4084580132141802}
   - component: {fileID: 114170400988946812}
-  - component: {fileID: 1408652927073523022}
+  - component: {fileID: 2168604794325663389}
   m_Layer: 0
   m_Name: ParamBodyAngleY
   m_TagString: Untagged
@@ -682,7 +682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 7
   Value: 0
---- !u!114 &1408652927073523022
+--- !u!114 &2168604794325663389
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -706,7 +706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4739883340948588}
   - component: {fileID: 114023598366680544}
-  - component: {fileID: 8831303175909117020}
+  - component: {fileID: 5005200726244827282}
   m_Layer: 0
   m_Name: PartLegL
   m_TagString: Untagged
@@ -742,7 +742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 16
   Opacity: 1
---- !u!114 &8831303175909117020
+--- !u!114 &5005200726244827282
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -880,7 +880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4408103218623632}
   - component: {fileID: 114560168721789794}
-  - component: {fileID: 5877160906295356734}
+  - component: {fileID: 1728697395192504501}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_5_ArtMesh82
   m_TagString: Untagged
@@ -916,7 +916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 75
   Value: 0
---- !u!114 &5877160906295356734
+--- !u!114 &1728697395192504501
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1168,7 +1168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4794878271359480}
   - component: {fileID: 114806816644818042}
-  - component: {fileID: 2674509998392975940}
+  - component: {fileID: 8168938032001035544}
   m_Layer: 0
   m_Name: ParamCharge01On
   m_TagString: Untagged
@@ -1204,7 +1204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 30
   Value: 0
---- !u!114 &2674509998392975940
+--- !u!114 &8168938032001035544
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1228,7 +1228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4499738491731568}
   - component: {fileID: 114753688321240482}
-  - component: {fileID: 6371245790876358914}
+  - component: {fileID: 7984646299451881198}
   m_Layer: 0
   m_Name: ParamFlameX
   m_TagString: Untagged
@@ -1264,7 +1264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 28
   Value: 0
---- !u!114 &6371245790876358914
+--- !u!114 &7984646299451881198
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1402,7 +1402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4251724555694722}
   - component: {fileID: 114419937242293132}
-  - component: {fileID: 509582422040784100}
+  - component: {fileID: 2335204908640031983}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_2_ArtMesh82
   m_TagString: Untagged
@@ -1438,7 +1438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 72
   Value: 0
---- !u!114 &509582422040784100
+--- !u!114 &2335204908640031983
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1576,7 +1576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4327213265435720}
   - component: {fileID: 114068043268929986}
-  - component: {fileID: 8571449787663125481}
+  - component: {fileID: 662981924750631200}
   m_Layer: 0
   m_Name: PartLegR
   m_TagString: Untagged
@@ -1612,7 +1612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 15
   Opacity: 1
---- !u!114 &8571449787663125481
+--- !u!114 &662981924750631200
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1978,7 +1978,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4755363936757342}
   - component: {fileID: 114908863684902618}
-  - component: {fileID: 7749638678504076555}
+  - component: {fileID: 7107306824605870777}
   m_Layer: 0
   m_Name: ParamShoulderR
   m_TagString: Untagged
@@ -2014,7 +2014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 9
   Value: 0
---- !u!114 &7749638678504076555
+--- !u!114 &7107306824605870777
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2152,7 +2152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4931889653265624}
   - component: {fileID: 114764866995280510}
-  - component: {fileID: 6049521989308166799}
+  - component: {fileID: 7188491708305569235}
   m_Layer: 0
   m_Name: PartEyeR
   m_TagString: Untagged
@@ -2188,7 +2188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 10
   Opacity: 1
---- !u!114 &6049521989308166799
+--- !u!114 &7188491708305569235
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2648,7 +2648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4805781572258384}
   - component: {fileID: 114068510792451174}
-  - component: {fileID: 5861359892891622288}
+  - component: {fileID: 851918141377025802}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_3_ArtMesh81
   m_TagString: Untagged
@@ -2684,7 +2684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 80
   Value: 0
---- !u!114 &5861359892891622288
+--- !u!114 &851918141377025802
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2708,7 +2708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4244806858394694}
   - component: {fileID: 114473781277525010}
-  - component: {fileID: 757938523387315541}
+  - component: {fileID: 3686570743190995094}
   m_Layer: 0
   m_Name: PartMagicA
   m_TagString: Untagged
@@ -2744,7 +2744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 5
   Opacity: 1
---- !u!114 &757938523387315541
+--- !u!114 &3686570743190995094
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2882,7 +2882,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4475052629167258}
   - component: {fileID: 114811755554039704}
-  - component: {fileID: 8643896336914400990}
+  - component: {fileID: 5769680124392611278}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_5_ArtMesh81
   m_TagString: Untagged
@@ -2918,7 +2918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 82
   Value: 0
---- !u!114 &8643896336914400990
+--- !u!114 &5769680124392611278
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2942,7 +2942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4485331006580212}
   - component: {fileID: 114313797561558146}
-  - component: {fileID: 6766485603273702732}
+  - component: {fileID: 2686937103548531209}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_1_ArtMesh82
   m_TagString: Untagged
@@ -2978,7 +2978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 71
   Value: 0
---- !u!114 &6766485603273702732
+--- !u!114 &2686937103548531209
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3572,7 +3572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4953730374451760}
   - component: {fileID: 114058485410349282}
-  - component: {fileID: 5714790634044378722}
+  - component: {fileID: 7699468115164274578}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_4_ArtMesh80
   m_TagString: Untagged
@@ -3608,7 +3608,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 90
   Value: 0
---- !u!114 &5714790634044378722
+--- !u!114 &7699468115164274578
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3746,7 +3746,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4926230432410176}
   - component: {fileID: 114185890990340008}
-  - component: {fileID: 3831051391536692010}
+  - component: {fileID: 8847653912862420572}
   m_Layer: 0
   m_Name: ArtMesh82_Skinning
   m_TagString: Untagged
@@ -3782,7 +3782,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 28
   Opacity: 1
---- !u!114 &3831051391536692010
+--- !u!114 &8847653912862420572
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3920,7 +3920,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4769994117896870}
   - component: {fileID: 114386253122484078}
-  - component: {fileID: 3248768084893552586}
+  - component: {fileID: 4235668862034749632}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_4_ArtMesh67
   m_TagString: Untagged
@@ -3956,7 +3956,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 64
   Value: 0
---- !u!114 &3248768084893552586
+--- !u!114 &4235668862034749632
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3980,7 +3980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4678519991853538}
   - component: {fileID: 114628759546399646}
-  - component: {fileID: 3183259605021755681}
+  - component: {fileID: 3868381848772717464}
   m_Layer: 0
   m_Name: PartMagicPowersA
   m_TagString: Untagged
@@ -4016,7 +4016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 4
   Opacity: 1
---- !u!114 &3183259605021755681
+--- !u!114 &3868381848772717464
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4268,7 +4268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4503946846056452}
   - component: {fileID: 114656082742557626}
-  - component: {fileID: 5957573730696077498}
+  - component: {fileID: 460144975496366114}
   m_Layer: 0
   m_Name: ParamBookPage
   m_TagString: Untagged
@@ -4304,7 +4304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 24
   Value: 0
---- !u!114 &5957573730696077498
+--- !u!114 &460144975496366114
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4556,7 +4556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4614347845310822}
   - component: {fileID: 114283638354081690}
-  - component: {fileID: 7212109278451379781}
+  - component: {fileID: 2711225991350610919}
   m_Layer: 0
   m_Name: PartBrow
   m_TagString: Untagged
@@ -4592,7 +4592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 8
   Opacity: 1
---- !u!114 &7212109278451379781
+--- !u!114 &2711225991350610919
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4730,7 +4730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4093344027485766}
   - component: {fileID: 114434277312765392}
-  - component: {fileID: 5496445272061387692}
+  - component: {fileID: 7787970665586058626}
   m_Layer: 0
   m_Name: ParamBustRibbon01
   m_TagString: Untagged
@@ -4766,7 +4766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 52
   Value: 0
---- !u!114 &5496445272061387692
+--- !u!114 &7787970665586058626
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4790,7 +4790,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4670735500161690}
   - component: {fileID: 114350733949116922}
-  - component: {fileID: 7245153744331539240}
+  - component: {fileID: 8870045894437951698}
   m_Layer: 0
   m_Name: ParamHairFront02
   m_TagString: Untagged
@@ -4826,7 +4826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 60
   Value: 0
---- !u!114 &7245153744331539240
+--- !u!114 &8870045894437951698
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5024,7 +5024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4861115066299738}
   - component: {fileID: 114568307859987764}
-  - component: {fileID: 478541843509918542}
+  - component: {fileID: 656420477221732611}
   m_Layer: 0
   m_Name: ParamSkirt
   m_TagString: Untagged
@@ -5060,7 +5060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 56
   Value: 0
---- !u!114 &478541843509918542
+--- !u!114 &656420477221732611
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5198,7 +5198,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4864325893792854}
   - component: {fileID: 114690918810180736}
-  - component: {fileID: 8567439340658511432}
+  - component: {fileID: 6735470183112857796}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_2_ArtMesh80
   m_TagString: Untagged
@@ -5234,7 +5234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 88
   Value: 0
---- !u!114 &8567439340658511432
+--- !u!114 &6735470183112857796
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5514,7 +5514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4834340429791426}
   - component: {fileID: 114506320861164362}
-  - component: {fileID: 2644252288987214513}
+  - component: {fileID: 6998496538059785673}
   m_Layer: 0
   m_Name: ParamMagicBOn
   m_TagString: Untagged
@@ -5550,7 +5550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 42
   Value: 0
---- !u!114 &2644252288987214513
+--- !u!114 &6998496538059785673
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5688,7 +5688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4161870931854334}
   - component: {fileID: 114886374334999402}
-  - component: {fileID: 2948523818650985859}
+  - component: {fileID: 3484280814202176164}
   m_Layer: 0
   m_Name: ParamArmR01
   m_TagString: Untagged
@@ -5724,7 +5724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 15
   Value: 0
---- !u!114 &2948523818650985859
+--- !u!114 &3484280814202176164
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5976,7 +5976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4496876528580092}
   - component: {fileID: 114014466580412040}
-  - component: {fileID: 7768845851845155261}
+  - component: {fileID: 4177169458573595903}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_7_ArtMesh82
   m_TagString: Untagged
@@ -6012,7 +6012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 77
   Value: 0
---- !u!114 &7768845851845155261
+--- !u!114 &4177169458573595903
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6150,7 +6150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4575797122270162}
   - component: {fileID: 114541718027310256}
-  - component: {fileID: 3040287569174942979}
+  - component: {fileID: 6877962146322580061}
   m_Layer: 0
   m_Name: ParamEffectAY
   m_TagString: Untagged
@@ -6186,7 +6186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 39
   Value: 0
---- !u!114 &3040287569174942979
+--- !u!114 &6877962146322580061
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6780,7 +6780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4188263294001010}
   - component: {fileID: 114369270582901484}
-  - component: {fileID: 1221353165194303939}
+  - component: {fileID: 6135673400097789553}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_3_ArtMesh80
   m_TagString: Untagged
@@ -6816,7 +6816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 89
   Value: 0
---- !u!114 &1221353165194303939
+--- !u!114 &6135673400097789553
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6840,7 +6840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4194092851172372}
   - component: {fileID: 114115968770609598}
-  - component: {fileID: 8109158654741608738}
+  - component: {fileID: 8159074944339805042}
   m_Layer: 0
   m_Name: Part19
   m_TagString: Untagged
@@ -6876,7 +6876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 23
   Opacity: 1
---- !u!114 &8109158654741608738
+--- !u!114 &8159074944339805042
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7014,7 +7014,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4922136575800938}
   - component: {fileID: 114360451007008970}
-  - component: {fileID: 7022156664384031148}
+  - component: {fileID: 2947583396193321757}
   m_Layer: 0
   m_Name: ParamFlame
   m_TagString: Untagged
@@ -7050,7 +7050,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 26
   Value: 0
---- !u!114 &7022156664384031148
+--- !u!114 &2947583396193321757
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7188,7 +7188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4972527849207296}
   - component: {fileID: 114033483095494242}
-  - component: {fileID: 7932349492173577398}
+  - component: {fileID: 7221571674357622602}
   m_Layer: 0
   m_Name: ParamAngleX
   m_TagString: Untagged
@@ -7224,7 +7224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 0
   Value: 0
---- !u!114 &7932349492173577398
+--- !u!114 &7221571674357622602
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7362,7 +7362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4856619268935968}
   - component: {fileID: 114581853692434988}
-  - component: {fileID: 1081364954613109562}
+  - component: {fileID: 4032014734339440852}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_7_ArtMesh81
   m_TagString: Untagged
@@ -7398,7 +7398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 84
   Value: 0
---- !u!114 &1081364954613109562
+--- !u!114 &4032014734339440852
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7422,7 +7422,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4367752594845442}
   - component: {fileID: 114849377537409984}
-  - component: {fileID: 6244287160137587015}
+  - component: {fileID: 5974061422646883941}
   m_Layer: 0
   m_Name: Part20
   m_TagString: Untagged
@@ -7458,7 +7458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 21
   Opacity: 1
---- !u!114 &6244287160137587015
+--- !u!114 &5974061422646883941
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7596,7 +7596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4152715204334678}
   - component: {fileID: 114293578109374896}
-  - component: {fileID: 5078774048619634495}
+  - component: {fileID: 390541382960325606}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_5_ArtMesh67
   m_TagString: Untagged
@@ -7632,7 +7632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 65
   Value: 0
---- !u!114 &5078774048619634495
+--- !u!114 &390541382960325606
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7656,7 +7656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4176603734074368}
   - component: {fileID: 114679584000824864}
-  - component: {fileID: 8882291240607263729}
+  - component: {fileID: 4323460703987474939}
   m_Layer: 0
   m_Name: Part17
   m_TagString: Untagged
@@ -7692,7 +7692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 25
   Opacity: 1
---- !u!114 &8882291240607263729
+--- !u!114 &4323460703987474939
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7830,7 +7830,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4320380291974970}
   - component: {fileID: 114770622728614964}
-  - component: {fileID: 7795340049339433424}
+  - component: {fileID: 7846116682185763681}
   m_Layer: 0
   m_Name: ParamBodyAngleX
   m_TagString: Untagged
@@ -7866,7 +7866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 6
   Value: 0
---- !u!114 &7795340049339433424
+--- !u!114 &7846116682185763681
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8358,7 +8358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4191783331699328}
   - component: {fileID: 114100280227724606}
-  - component: {fileID: 8197470533371014138}
+  - component: {fileID: 760923398724836072}
   m_Layer: 0
   m_Name: ParamHandLightAOn
   m_TagString: Untagged
@@ -8394,7 +8394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 32
   Value: 0
---- !u!114 &8197470533371014138
+--- !u!114 &760923398724836072
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8532,7 +8532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4176445608401836}
   - component: {fileID: 114069528322369002}
-  - component: {fileID: 679255493670305233}
+  - component: {fileID: 7077257593275364346}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_9_ArtMesh81
   m_TagString: Untagged
@@ -8568,7 +8568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 86
   Value: 0
---- !u!114 &679255493670305233
+--- !u!114 &7077257593275364346
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8592,7 +8592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4000483062194320}
   - component: {fileID: 114416607853768308}
-  - component: {fileID: 8289069846861016241}
+  - component: {fileID: 8980257539250892786}
   m_Layer: 0
   m_Name: ParamLegR
   m_TagString: Untagged
@@ -8628,7 +8628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 12
   Value: 0
---- !u!114 &8289069846861016241
+--- !u!114 &8980257539250892786
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8880,7 +8880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4110558868100614}
   - component: {fileID: 114537465752597400}
-  - component: {fileID: 9208517884894480751}
+  - component: {fileID: 8034738388223539976}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_9_ArtMesh80
   m_TagString: Untagged
@@ -8916,7 +8916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 95
   Value: 0
---- !u!114 &9208517884894480751
+--- !u!114 &8034738388223539976
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9168,7 +9168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4212809971410216}
   - component: {fileID: 114251291669666618}
-  - component: {fileID: 5097535914280922575}
+  - component: {fileID: 1826204464615215636}
   m_Layer: 0
   m_Name: PartMagicPowersB
   m_TagString: Untagged
@@ -9204,7 +9204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 2
   Opacity: 1
---- !u!114 &5097535914280922575
+--- !u!114 &1826204464615215636
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9228,7 +9228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4952677861431236}
   - component: {fileID: 114268002288994678}
-  - component: {fileID: 6163061320387223499}
+  - component: {fileID: 1617567275768152564}
   m_Layer: 0
   m_Name: ParamMagicBRotation
   m_TagString: Untagged
@@ -9264,7 +9264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 43
   Value: 0
---- !u!114 &6163061320387223499
+--- !u!114 &1617567275768152564
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9402,7 +9402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4499914167954112}
   - component: {fileID: 114842406227420182}
-  - component: {fileID: 5779863593962088934}
+  - component: {fileID: 1455366445360295114}
   m_Layer: 0
   m_Name: PartBody
   m_TagString: Untagged
@@ -9438,7 +9438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 14
   Opacity: 1
---- !u!114 &5779863593962088934
+--- !u!114 &1455366445360295114
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9462,7 +9462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4624591874309208}
   - component: {fileID: 114106732012324938}
-  - component: {fileID: 7984326295619985454}
+  - component: {fileID: 3211745373903611782}
   m_Layer: 0
   m_Name: ParamMagicPowersA
   m_TagString: Untagged
@@ -9498,7 +9498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 34
   Value: 0
---- !u!114 &7984326295619985454
+--- !u!114 &3211745373903611782
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9636,7 +9636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4952058113207684}
   - component: {fileID: 114898196312516104}
-  - component: {fileID: 2208738657393035581}
+  - component: {fileID: 551378155830829555}
   m_Layer: 0
   m_Name: PartArmR01
   m_TagString: Untagged
@@ -9672,7 +9672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 13
   Opacity: 1
---- !u!114 &2208738657393035581
+--- !u!114 &551378155830829555
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9810,7 +9810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4280917331758614}
   - component: {fileID: 114021308413774656}
-  - component: {fileID: 5894468930185703569}
+  - component: {fileID: 8764874065772803851}
   m_Layer: 0
   m_Name: PartEyeL
   m_TagString: Untagged
@@ -9846,7 +9846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 9
   Opacity: 1
---- !u!114 &5894468930185703569
+--- !u!114 &8764874065772803851
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10212,7 +10212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4159666526020652}
   - component: {fileID: 114933337135774956}
-  - component: {fileID: 2967368656563213119}
+  - component: {fileID: 5804554136193977262}
   m_Layer: 0
   m_Name: ParamArmR02Y
   m_TagString: Untagged
@@ -10248,7 +10248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 18
   Value: -10
---- !u!114 &2967368656563213119
+--- !u!114 &5804554136193977262
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10500,7 +10500,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4639501449005846}
   - component: {fileID: 114979234868669358}
-  - component: {fileID: 5439358616190599514}
+  - component: {fileID: 3852798035492092263}
   m_Layer: 0
   m_Name: ParamArmL02
   m_TagString: Untagged
@@ -10536,7 +10536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 21
   Value: 0
---- !u!114 &5439358616190599514
+--- !u!114 &3852798035492092263
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10674,7 +10674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4996884352831716}
   - component: {fileID: 114291020946845890}
-  - component: {fileID: 2463957978014725290}
+  - component: {fileID: 6637566765313267328}
   m_Layer: 0
   m_Name: ParamAllZ
   m_TagString: Untagged
@@ -10710,7 +10710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 14
   Value: 0
---- !u!114 &2463957978014725290
+--- !u!114 &6637566765313267328
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10962,7 +10962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4729532280463208}
   - component: {fileID: 114879766028464458}
-  - component: {fileID: 2618799254422978618}
+  - component: {fileID: 748190907232532987}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_6_ArtMesh80
   m_TagString: Untagged
@@ -10998,7 +10998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 92
   Value: 0
---- !u!114 &2618799254422978618
+--- !u!114 &748190907232532987
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11022,7 +11022,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4387434343633322}
   - component: {fileID: 114190525547688358}
-  - component: {fileID: 2082142006660978224}
+  - component: {fileID: 8189213202766495640}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_1_ArtMesh80
   m_TagString: Untagged
@@ -11058,7 +11058,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 87
   Value: 0
---- !u!114 &2082142006660978224
+--- !u!114 &8189213202766495640
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11424,7 +11424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4374415830354658}
   - component: {fileID: 114543547483563428}
-  - component: {fileID: 6426343284746438084}
+  - component: {fileID: 221121472202249934}
   m_Layer: 0
   m_Name: ArtMesh20_Skinning
   m_TagString: Untagged
@@ -11460,7 +11460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 20
   Opacity: 1
---- !u!114 &6426343284746438084
+--- !u!114 &221121472202249934
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11826,7 +11826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4748160499736308}
   - component: {fileID: 114812131579706614}
-  - component: {fileID: 853354115148212809}
+  - component: {fileID: 6895521416145473697}
   m_Layer: 0
   m_Name: PartHair
   m_TagString: Untagged
@@ -11862,7 +11862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 7
   Opacity: 1
---- !u!114 &853354115148212809
+--- !u!114 &6895521416145473697
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11886,7 +11886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4530782778659234}
   - component: {fileID: 114431874961910048}
-  - component: {fileID: 496146227826676932}
+  - component: {fileID: 6328988502253938886}
   m_Layer: 0
   m_Name: PartArmR02
   m_TagString: Untagged
@@ -11922,7 +11922,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 12
   Opacity: 1
---- !u!114 &496146227826676932
+--- !u!114 &6328988502253938886
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12174,7 +12174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4458024554520034}
   - component: {fileID: 114046028762756516}
-  - component: {fileID: 6604358509208688536}
+  - component: {fileID: 5189021976523362232}
   m_Layer: 0
   m_Name: ParamArmR02
   m_TagString: Untagged
@@ -12210,7 +12210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 17
   Value: 0
---- !u!114 &6604358509208688536
+--- !u!114 &5189021976523362232
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12234,7 +12234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4615241952167116}
   - component: {fileID: 114237863244783934}
-  - component: {fileID: 5415931906697360900}
+  - component: {fileID: 527103799744705908}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_6_ArtMesh81
   m_TagString: Untagged
@@ -12270,7 +12270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 83
   Value: 0
---- !u!114 &5415931906697360900
+--- !u!114 &527103799744705908
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12522,7 +12522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4765868330600322}
   - component: {fileID: 114767005879937946}
-  - component: {fileID: 7249554686317157198}
+  - component: {fileID: 4208483242174530253}
   m_Layer: 0
   m_Name: ParamHandLightBSize
   m_TagString: Untagged
@@ -12558,7 +12558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 41
   Value: 0
---- !u!114 &7249554686317157198
+--- !u!114 &4208483242174530253
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12582,7 +12582,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4636087955287512}
   - component: {fileID: 114239142480184224}
-  - component: {fileID: 8241196472223160534}
+  - component: {fileID: 3478928430973051323}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_4_ArtMesh81
   m_TagString: Untagged
@@ -12618,7 +12618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 81
   Value: 0
---- !u!114 &8241196472223160534
+--- !u!114 &3478928430973051323
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12642,7 +12642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4851917745725984}
   - component: {fileID: 114382937673381562}
-  - component: {fileID: 8097974568901694967}
+  - component: {fileID: 838007319757019792}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_2_ArtMesh81
   m_TagString: Untagged
@@ -12678,7 +12678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 79
   Value: 0
---- !u!114 &8097974568901694967
+--- !u!114 &838007319757019792
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13044,7 +13044,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4791413005722072}
   - component: {fileID: 114510398228798534}
-  - component: {fileID: 877646803289529037}
+  - component: {fileID: 6536208938050675709}
   m_Layer: 0
   m_Name: PartCore
   m_TagString: Untagged
@@ -13080,7 +13080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 0
   Opacity: 1
---- !u!114 &877646803289529037
+--- !u!114 &6536208938050675709
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13218,7 +13218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4519301688289498}
   - component: {fileID: 114860273014348948}
-  - component: {fileID: 6858125783200311237}
+  - component: {fileID: 3898572338077104515}
   m_Layer: 0
   m_Name: PartHairBack
   m_TagString: Untagged
@@ -13254,7 +13254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 18
   Opacity: 1
---- !u!114 &6858125783200311237
+--- !u!114 &3898572338077104515
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13392,7 +13392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4483640882006238}
   - component: {fileID: 114950997792822818}
-  - component: {fileID: 5618713928216289661}
+  - component: {fileID: 6166242356524684284}
   m_Layer: 0
   m_Name: ParamHeadRibbon
   m_TagString: Untagged
@@ -13428,7 +13428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 51
   Value: 0
---- !u!114 &5618713928216289661
+--- !u!114 &6166242356524684284
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13680,7 +13680,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4505635744495734}
   - component: {fileID: 114290740575535932}
-  - component: {fileID: 2227640731122720781}
+  - component: {fileID: 8548412538774738330}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_5_ArtMesh20
   m_TagString: Untagged
@@ -13716,7 +13716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 70
   Value: 0
---- !u!114 &2227640731122720781
+--- !u!114 &8548412538774738330
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13854,7 +13854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4025049672597104}
   - component: {fileID: 114796650520383736}
-  - component: {fileID: 3171792537945550950}
+  - component: {fileID: 6396751300611092445}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_3_ArtMesh67
   m_TagString: Untagged
@@ -13890,7 +13890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 63
   Value: 0
---- !u!114 &3171792537945550950
+--- !u!114 &6396751300611092445
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14142,7 +14142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4525071512620668}
   - component: {fileID: 114146558148974992}
-  - component: {fileID: 616575067841593144}
+  - component: {fileID: 2437935111566097000}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_4_ArtMesh82
   m_TagString: Untagged
@@ -14178,7 +14178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 74
   Value: 0
---- !u!114 &616575067841593144
+--- !u!114 &2437935111566097000
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14202,7 +14202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4552184015303974}
   - component: {fileID: 114329446294302332}
-  - component: {fileID: 3819715823357972298}
+  - component: {fileID: 4060650184368069542}
   m_Layer: 0
   m_Name: ParamCharge01
   m_TagString: Untagged
@@ -14238,7 +14238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 31
   Value: 0
---- !u!114 &3819715823357972298
+--- !u!114 &4060650184368069542
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14262,7 +14262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4097346938977914}
   - component: {fileID: 114106172481684512}
-  - component: {fileID: 8691857819513403085}
+  - component: {fileID: 2988490180049704792}
   m_Layer: 0
   m_Name: ParamAngleZ
   m_TagString: Untagged
@@ -14298,7 +14298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 1
   Value: 0
---- !u!114 &8691857819513403085
+--- !u!114 &2988490180049704792
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14664,7 +14664,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4883198568245568}
   - component: {fileID: 114629162660329046}
-  - component: {fileID: 3968169385314277563}
+  - component: {fileID: 1965619289115071167}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_3_ArtMesh82
   m_TagString: Untagged
@@ -14700,7 +14700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 73
   Value: 0
---- !u!114 &3968169385314277563
+--- !u!114 &1965619289115071167
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14838,7 +14838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4561593066489848}
   - component: {fileID: 114966715565528258}
-  - component: {fileID: 3448478072489450347}
+  - component: {fileID: 113940103529689273}
   m_Layer: 0
   m_Name: Part16
   m_TagString: Untagged
@@ -14874,7 +14874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 29
   Opacity: 1
---- !u!114 &3448478072489450347
+--- !u!114 &113940103529689273
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14898,7 +14898,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4327695059475518}
   - component: {fileID: 114912840934570162}
-  - component: {fileID: 3041279658653202771}
+  - component: {fileID: 4112577554678396153}
   m_Layer: 0
   m_Name: PartFace
   m_TagString: Untagged
@@ -14934,7 +14934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 11
   Opacity: 1
---- !u!114 &3041279658653202771
+--- !u!114 &4112577554678396153
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14958,7 +14958,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4006692711380122}
   - component: {fileID: 114780537463892154}
-  - component: {fileID: 694019643935222437}
+  - component: {fileID: 5513300020310878096}
   m_Layer: 0
   m_Name: ArtMesh67_Skinning
   m_TagString: Untagged
@@ -14994,7 +14994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 22
   Opacity: 1
---- !u!114 &694019643935222437
+--- !u!114 &5513300020310878096
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15132,7 +15132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4463423453707158}
   - component: {fileID: 114747006132359916}
-  - component: {fileID: 3507425695037226776}
+  - component: {fileID: 4233073664327244722}
   m_Layer: 0
   m_Name: ParamFlameY
   m_TagString: Untagged
@@ -15168,7 +15168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 29
   Value: 0
---- !u!114 &3507425695037226776
+--- !u!114 &4233073664327244722
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15192,7 +15192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4249091509681644}
   - component: {fileID: 114581719180507242}
-  - component: {fileID: 4050453739897077338}
+  - component: {fileID: 6773233711264217865}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_2_ArtMesh67
   m_TagString: Untagged
@@ -15228,7 +15228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 62
   Value: 0
---- !u!114 &4050453739897077338
+--- !u!114 &6773233711264217865
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15366,7 +15366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4394217224279218}
   - component: {fileID: 114294307387953928}
-  - component: {fileID: 8982878124003632880}
+  - component: {fileID: 1803924758865034425}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_8_ArtMesh80
   m_TagString: Untagged
@@ -15402,7 +15402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 94
   Value: 0
---- !u!114 &8982878124003632880
+--- !u!114 &1803924758865034425
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15540,7 +15540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4269615693275904}
   - component: {fileID: 114034485819733448}
-  - component: {fileID: 2592701064187867356}
+  - component: {fileID: 7837021192967517559}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_5_ArtMesh80
   m_TagString: Untagged
@@ -15576,7 +15576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 91
   Value: 0
---- !u!114 &2592701064187867356
+--- !u!114 &7837021192967517559
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15600,7 +15600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4512844322028770}
   - component: {fileID: 114143692473181732}
-  - component: {fileID: 5271953386128745484}
+  - component: {fileID: 7831503196761031205}
   m_Layer: 0
   m_Name: ParamSkirtY
   m_TagString: Untagged
@@ -15636,7 +15636,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 58
   Value: 0
---- !u!114 &5271953386128745484
+--- !u!114 &7831503196761031205
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15661,7 +15661,7 @@ GameObject:
   - component: {fileID: 4132869738917236}
   - component: {fileID: 114694277257748482}
   - component: {fileID: 114410162174137056}
-  - component: {fileID: 1461399154909923538}
+  - component: {fileID: 1465313403437327043}
   m_Layer: 0
   m_Name: ParamEyeROpen
   m_TagString: Untagged
@@ -15709,7 +15709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2101f97e0e368014cba8f91aa17db33a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1461399154909923538
+--- !u!114 &1465313403437327043
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15733,7 +15733,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4213600283852554}
   - component: {fileID: 114344187741888168}
-  - component: {fileID: 4231461536907240796}
+  - component: {fileID: 61725404898833524}
   m_Layer: 0
   m_Name: Part18
   m_TagString: Untagged
@@ -15769,7 +15769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 27
   Opacity: 1
---- !u!114 &4231461536907240796
+--- !u!114 &61725404898833524
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16021,7 +16021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4534882894859952}
   - component: {fileID: 114620707481668380}
-  - component: {fileID: 3174492622272799282}
+  - component: {fileID: 7226785298665494333}
   m_Layer: 0
   m_Name: ParamMagicBMove
   m_TagString: Untagged
@@ -16057,7 +16057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 44
   Value: 0
---- !u!114 &3174492622272799282
+--- !u!114 &7226785298665494333
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16309,7 +16309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4048078623240996}
   - component: {fileID: 114365906443497346}
-  - component: {fileID: 919642185981474372}
+  - component: {fileID: 2148665488939203419}
   m_Layer: 0
   m_Name: ParamWaistRibbon02
   m_TagString: Untagged
@@ -16345,7 +16345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 55
   Value: 0
---- !u!114 &919642185981474372
+--- !u!114 &2148665488939203419
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16369,7 +16369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4200712306700940}
   - component: {fileID: 114042099120841606}
-  - component: {fileID: 2948669266084187934}
+  - component: {fileID: 2953692893162913297}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_3_ArtMesh20
   m_TagString: Untagged
@@ -16405,7 +16405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 68
   Value: 0
---- !u!114 &2948669266084187934
+--- !u!114 &2953692893162913297
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16657,7 +16657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4294714364110850}
   - component: {fileID: 114863101356567772}
-  - component: {fileID: 2978969803924770938}
+  - component: {fileID: 4159768009999517315}
   m_Layer: 0
   m_Name: ParamFlameOn
   m_TagString: Untagged
@@ -16693,7 +16693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 25
   Value: 0
---- !u!114 &2978969803924770938
+--- !u!114 &4159768009999517315
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17287,7 +17287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4149605033455462}
   - component: {fileID: 114280516885818862}
-  - component: {fileID: 1852553807912745175}
+  - component: {fileID: 5764100374853502958}
   m_Layer: 0
   m_Name: ParamMagicARotation
   m_TagString: Untagged
@@ -17323,7 +17323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 36
   Value: 0
---- !u!114 &1852553807912745175
+--- !u!114 &5764100374853502958
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17347,7 +17347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4554804213221708}
   - component: {fileID: 114170834199357542}
-  - component: {fileID: 3356735115955094686}
+  - component: {fileID: 1119104597396126067}
   m_Layer: 0
   m_Name: ParamMagicALight
   m_TagString: Untagged
@@ -17383,7 +17383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 37
   Value: 0
---- !u!114 &3356735115955094686
+--- !u!114 &1119104597396126067
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17407,7 +17407,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4405336601381978}
   - component: {fileID: 114233340222321424}
-  - component: {fileID: 4384575178728884958}
+  - component: {fileID: 4260370683256954553}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_1_ArtMesh67
   m_TagString: Untagged
@@ -17443,7 +17443,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 61
   Value: 0
---- !u!114 &4384575178728884958
+--- !u!114 &4260370683256954553
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17923,7 +17923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4422532205618022}
   - component: {fileID: 114298938018119006}
-  - component: {fileID: 2628801848963623130}
+  - component: {fileID: 8597908594915985933}
   m_Layer: 0
   m_Name: ParamArmR03
   m_TagString: Untagged
@@ -17959,7 +17959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 19
   Value: 0
---- !u!114 &2628801848963623130
+--- !u!114 &8597908594915985933
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17983,7 +17983,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4398178698302568}
   - component: {fileID: 114537606008437458}
-  - component: {fileID: 2303688041921201995}
+  - component: {fileID: 9003230993293168217}
   m_Layer: 0
   m_Name: ParamLegRUpDw
   m_TagString: Untagged
@@ -18019,7 +18019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 13
   Value: 0
---- !u!114 &2303688041921201995
+--- !u!114 &9003230993293168217
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18043,7 +18043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4834947098387836}
   - component: {fileID: 114294999744454180}
-  - component: {fileID: 3110556785636701252}
+  - component: {fileID: 8512870593759402513}
   m_Layer: 0
   m_Name: ParamArmChange
   m_TagString: Untagged
@@ -18079,7 +18079,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 23
   Value: 0
---- !u!114 &3110556785636701252
+--- !u!114 &8512870593759402513
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18217,7 +18217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4308714326927200}
   - component: {fileID: 114876530859523610}
-  - component: {fileID: 8831440063610272623}
+  - component: {fileID: 8715679354609016982}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_7_ArtMesh80
   m_TagString: Untagged
@@ -18253,7 +18253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 93
   Value: 0
---- !u!114 &8831440063610272623
+--- !u!114 &8715679354609016982
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18733,7 +18733,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4067696106974828}
   - component: {fileID: 114709593471789124}
-  - component: {fileID: 5069956717697134294}
+  - component: {fileID: 6608450512206305721}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_2_ArtMesh20
   m_TagString: Untagged
@@ -18769,7 +18769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 67
   Value: 0
---- !u!114 &5069956717697134294
+--- !u!114 &6608450512206305721
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19021,7 +19021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4917218051484224}
   - component: {fileID: 114528435086338546}
-  - component: {fileID: 6322642821528647896}
+  - component: {fileID: 4873672970311395123}
   m_Layer: 0
   m_Name: ParamEyeBallY
   m_TagString: Untagged
@@ -19057,7 +19057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 5
   Value: 0
---- !u!114 &6322642821528647896
+--- !u!114 &4873672970311395123
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19309,7 +19309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4482750757906054}
   - component: {fileID: 114052756671452402}
-  - component: {fileID: 5947404928768066650}
+  - component: {fileID: 5130480889438170848}
   m_Layer: 0
   m_Name: ParamEffectBX
   m_TagString: Untagged
@@ -19345,7 +19345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 49
   Value: 0
---- !u!114 &5947404928768066650
+--- !u!114 &5130480889438170848
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19597,7 +19597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4575010174415502}
   - component: {fileID: 114963462507179694}
-  - component: {fileID: 2955440533350686703}
+  - component: {fileID: 1364338635545724297}
   m_Layer: 0
   m_Name: ParamArmR01Y
   m_TagString: Untagged
@@ -19633,7 +19633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 16
   Value: 0
---- !u!114 &2955440533350686703
+--- !u!114 &1364338635545724297
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20227,7 +20227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4897857148156354}
   - component: {fileID: 114363259708599086}
-  - component: {fileID: 2927270033235378910}
+  - component: {fileID: 1237357877190711713}
   m_Layer: 0
   m_Name: ParamEyeBallX
   m_TagString: Untagged
@@ -20263,7 +20263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 4
   Value: 0
---- !u!114 &2927270033235378910
+--- !u!114 &1237357877190711713
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20401,7 +20401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4069776496331050}
   - component: {fileID: 114621033302154602}
-  - component: {fileID: 2494621828549479306}
+  - component: {fileID: 6196823505888443022}
   m_Layer: 0
   m_Name: ParamArmL03
   m_TagString: Untagged
@@ -20437,7 +20437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 22
   Value: 0
---- !u!114 &2494621828549479306
+--- !u!114 &6196823505888443022
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20461,7 +20461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4093180490667098}
   - component: {fileID: 114113021486366536}
-  - component: {fileID: 6200499277972266326}
+  - component: {fileID: 2876836677308250955}
   m_Layer: 0
   m_Name: PartArmL
   m_TagString: Untagged
@@ -20497,7 +20497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 17
   Opacity: 1
---- !u!114 &6200499277972266326
+--- !u!114 &2876836677308250955
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20521,7 +20521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4495069150595658}
   - component: {fileID: 114375649769806030}
-  - component: {fileID: 7403633016695301944}
+  - component: {fileID: 7891890610100670453}
   m_Layer: 0
   m_Name: ParamWaistRibbon01
   m_TagString: Untagged
@@ -20557,7 +20557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 54
   Value: 0
---- !u!114 &7403633016695301944
+--- !u!114 &7891890610100670453
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21493,7 +21493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4359549287794234}
   - component: {fileID: 114694071158669514}
-  - component: {fileID: 5772419989968694706}
+  - component: {fileID: 348231147888349677}
   m_Layer: 0
   m_Name: ParamArmL01
   m_TagString: Untagged
@@ -21529,7 +21529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 20
   Value: 0
---- !u!114 &5772419989968694706
+--- !u!114 &348231147888349677
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21667,7 +21667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4983489750411138}
   - component: {fileID: 114328383181575896}
-  - component: {fileID: 6035206713736523}
+  - component: {fileID: 1233194422467747559}
   m_Layer: 0
   m_Name: ParamBustRibbon02
   m_TagString: Untagged
@@ -21703,7 +21703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 53
   Value: 0
---- !u!114 &6035206713736523
+--- !u!114 &1233194422467747559
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21727,7 +21727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4901299024290210}
   - component: {fileID: 114489214106609004}
-  - component: {fileID: 9109492071340900892}
+  - component: {fileID: 8586676503024404168}
   m_Layer: 0
   m_Name: ParamEffectBY
   m_TagString: Untagged
@@ -21763,7 +21763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 50
   Value: 0
---- !u!114 &9109492071340900892
+--- !u!114 &8586676503024404168
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21787,7 +21787,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4163744514621950}
   - component: {fileID: 114619689143495258}
-  - component: {fileID: 262320695630866996}
+  - component: {fileID: 911644156329856123}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_4_ArtMesh20
   m_TagString: Untagged
@@ -21823,7 +21823,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 69
   Value: 0
---- !u!114 &262320695630866996
+--- !u!114 &911644156329856123
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21847,7 +21847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4682450933339264}
   - component: {fileID: 114637351671574354}
-  - component: {fileID: 7311829033286762701}
+  - component: {fileID: 1980929758566604458}
   m_Layer: 0
   m_Name: ParamLegKnee
   m_TagString: Untagged
@@ -21883,7 +21883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 11
   Value: 0
---- !u!114 &7311829033286762701
+--- !u!114 &1980929758566604458
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22021,7 +22021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4247767097913062}
   - component: {fileID: 114248519102684290}
-  - component: {fileID: 6887939625411942850}
+  - component: {fileID: 5382295509910410493}
   m_Layer: 0
   m_Name: ParamShoulderL
   m_TagString: Untagged
@@ -22057,7 +22057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 10
   Value: 0
---- !u!114 &6887939625411942850
+--- !u!114 &5382295509910410493
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22309,7 +22309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4697230059686100}
   - component: {fileID: 114738746534098092}
-  - component: {fileID: 6534562114375043748}
+  - component: {fileID: 7050671311428477651}
   m_Layer: 0
   m_Name: ParamMagicPowersBSize
   m_TagString: Untagged
@@ -22345,7 +22345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 47
   Value: 0
---- !u!114 &6534562114375043748
+--- !u!114 &7050671311428477651
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22369,7 +22369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4844543372303996}
   - component: {fileID: 114384628588706720}
-  - component: {fileID: 3903742362967792885}
+  - component: {fileID: 3975699709939989740}
   m_Layer: 0
   m_Name: ParamMagicAOn
   m_TagString: Untagged
@@ -22405,7 +22405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 35
   Value: 0
---- !u!114 &3903742362967792885
+--- !u!114 &3975699709939989740
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22999,7 +22999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4004483664645814}
   - component: {fileID: 114094318634017476}
-  - component: {fileID: 3052765593718853880}
+  - component: {fileID: 7162687714017655912}
   m_Layer: 0
   m_Name: ParamBodyAngleZ
   m_TagString: Untagged
@@ -23035,7 +23035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 8
   Value: 0
---- !u!114 &3052765593718853880
+--- !u!114 &7162687714017655912
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23060,7 +23060,7 @@ GameObject:
   - component: {fileID: 4148328498080372}
   - component: {fileID: 114367995821276930}
   - component: {fileID: 114865916695211506}
-  - component: {fileID: 7994783946206918880}
+  - component: {fileID: 715798167021654371}
   m_Layer: 0
   m_Name: ParamEyeLOpen
   m_TagString: Untagged
@@ -23108,7 +23108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2101f97e0e368014cba8f91aa17db33a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7994783946206918880
+--- !u!114 &715798167021654371
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23588,7 +23588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4853945062021598}
   - component: {fileID: 114676469702829624}
-  - component: {fileID: 122319512720372121}
+  - component: {fileID: 202059027530050208}
   m_Layer: 0
   m_Name: ParamHairFront01
   m_TagString: Untagged
@@ -23624,7 +23624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 59
   Value: 0
---- !u!114 &122319512720372121
+--- !u!114 &202059027530050208
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23648,7 +23648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4150621005598912}
   - component: {fileID: 114415099100018314}
-  - component: {fileID: 7595255713682704810}
+  - component: {fileID: 6022364526149665459}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_8_ArtMesh81
   m_TagString: Untagged
@@ -23684,7 +23684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 85
   Value: 0
---- !u!114 &7595255713682704810
+--- !u!114 &6022364526149665459
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23822,7 +23822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4603867331831232}
   - component: {fileID: 114024230854659282}
-  - component: {fileID: 6332099583761801342}
+  - component: {fileID: 4576214636272442709}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_6_ArtMesh82
   m_TagString: Untagged
@@ -23858,7 +23858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 76
   Value: 0
---- !u!114 &6332099583761801342
+--- !u!114 &4576214636272442709
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24110,7 +24110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4209585015654816}
   - component: {fileID: 114921062258536472}
-  - component: {fileID: 4120885249310097854}
+  - component: {fileID: 6406647030870144023}
   m_Layer: 0
   m_Name: ParamHandLightASize
   m_TagString: Untagged
@@ -24146,7 +24146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 33
   Value: 0
---- !u!114 &4120885249310097854
+--- !u!114 &6406647030870144023
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24512,7 +24512,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4147572524847208}
   - component: {fileID: 114003896708704118}
-  - component: {fileID: 7814626039830784085}
+  - component: {fileID: 6036189255156490917}
   m_Layer: 0
   m_Name: ParamHandLightBOn
   m_TagString: Untagged
@@ -24548,7 +24548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 40
   Value: 0
---- !u!114 &7814626039830784085
+--- !u!114 &6036189255156490917
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24686,7 +24686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4386536571186084}
   - component: {fileID: 114822584706728212}
-  - component: {fileID: 7924486373597653805}
+  - component: {fileID: 2453511369814065283}
   m_Layer: 0
   m_Name: ParamMagicBX
   m_TagString: Untagged
@@ -24722,7 +24722,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 45
   Value: 0
---- !u!114 &7924486373597653805
+--- !u!114 &2453511369814065283
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24974,7 +24974,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4293005198437510}
   - component: {fileID: 114942893547708070}
-  - component: {fileID: 1932726606841854399}
+  - component: {fileID: 1568912182283058491}
   m_Layer: 0
   m_Name: ArtMesh81_Skinning
   m_TagString: Untagged
@@ -25010,7 +25010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 26
   Opacity: 1
---- !u!114 &1932726606841854399
+--- !u!114 &1568912182283058491
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -25490,7 +25490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4662319470006674}
   - component: {fileID: 114112648271826584}
-  - component: {fileID: 565632047126288933}
+  - component: {fileID: 3636602844834198600}
   m_Layer: 0
   m_Name: PartMagicB
   m_TagString: Untagged
@@ -25526,7 +25526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 3
   Opacity: 1
---- !u!114 &565632047126288933
+--- !u!114 &3636602844834198600
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -25550,7 +25550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4707911694428428}
   - component: {fileID: 114515318614276698}
-  - component: {fileID: 4208800320909009732}
+  - component: {fileID: 9054471294366060396}
   m_Layer: 0
   m_Name: PartFlame
   m_TagString: Untagged
@@ -25586,7 +25586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 1
   Opacity: 1
---- !u!114 &4208800320909009732
+--- !u!114 &9054471294366060396
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27145,7 +27145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4183989412915460}
   - component: {fileID: 114498046646752910}
-  - component: {fileID: 418984490658229430}
+  - component: {fileID: 5501693548783039834}
   m_Layer: 0
   m_Name: PartHat
   m_TagString: Untagged
@@ -27181,7 +27181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 6
   Opacity: 1
---- !u!114 &418984490658229430
+--- !u!114 &5501693548783039834
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27319,7 +27319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4195023607678548}
   - component: {fileID: 114131179763500046}
-  - component: {fileID: 3814416652469716084}
+  - component: {fileID: 7724109512820047011}
   m_Layer: 0
   m_Name: Param_Angle_Rotation_1_ArtMesh20
   m_TagString: Untagged
@@ -27355,7 +27355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 66
   Value: 0
---- !u!114 &3814416652469716084
+--- !u!114 &7724109512820047011
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27607,7 +27607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4304864121040628}
   - component: {fileID: 114804098002823478}
-  - component: {fileID: 2406447719645345759}
+  - component: {fileID: 4848864994473789294}
   m_Layer: 0
   m_Name: ParamMagicPowersBOn
   m_TagString: Untagged
@@ -27643,7 +27643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 46
   Value: 0
---- !u!114 &2406447719645345759
+--- !u!114 &4848864994473789294
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27667,7 +27667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4233353102968386}
   - component: {fileID: 114052656884966244}
-  - component: {fileID: 7993212154873518204}
+  - component: {fileID: 940613337849141137}
   m_Layer: 0
   m_Name: PartWaveSave
   m_TagString: Untagged
@@ -27703,7 +27703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 19
   Opacity: 1
---- !u!114 &7993212154873518204
+--- !u!114 &940613337849141137
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -28183,7 +28183,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4753820611247434}
   - component: {fileID: 114361104433619082}
-  - component: {fileID: 1708206007753619393}
+  - component: {fileID: 4365563718999104823}
   m_Layer: 0
   m_Name: ArtMesh80_Skinning
   m_TagString: Untagged
@@ -28219,7 +28219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 24
   Opacity: 1
---- !u!114 &1708206007753619393
+--- !u!114 &4365563718999104823
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -28813,7 +28813,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4517617087107662}
   - component: {fileID: 114893991138832070}
-  - component: {fileID: 3038579394248449870}
+  - component: {fileID: 295888235968100882}
   m_Layer: 0
   m_Name: ParamEffectAX
   m_TagString: Untagged
@@ -28849,7 +28849,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 38
   Value: 0
---- !u!114 &3038579394248449870
+--- !u!114 &295888235968100882
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -29215,7 +29215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4558382125595472}
   - component: {fileID: 114386854673314228}
-  - component: {fileID: 7280651847764920628}
+  - component: {fileID: 2983634164819763043}
   m_Layer: 0
   m_Name: ParamSkirtX
   m_TagString: Untagged
@@ -29251,7 +29251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _unmanagedIndex: 57
   Value: 0
---- !u!114 &7280651847764920628
+--- !u!114 &2983634164819763043
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

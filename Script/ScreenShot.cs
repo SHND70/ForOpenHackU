@@ -10,10 +10,12 @@ public class ScreenShot : MonoBehaviour
     // Start is called before the first frame update
 
     public string printName;
-    public GameObject gameobject;
     private SpriteRenderer sr;
 
     public Text imageName;
+    
+    public int width;
+    public int height;
 
     public void Update()
     {
@@ -21,13 +23,13 @@ public class ScreenShot : MonoBehaviour
     }
 
     public void OnClick() {
-        sr = gameobject.GetComponent<SpriteRenderer>();
-        StartCoroutine(Capture((int)sr.sprite.texture.width,(int)sr.sprite.texture.height));
+       StartCoroutine(Capture(width,height));
     }
 
     public virtual IEnumerator Capture(int width,int height)
     {
         yield return new WaitForEndOfFrame();
+
         Texture2D tex = ScreenCapture.CaptureScreenshotAsTexture();
         int x = (tex.width - width)/2;
         int y = (tex.height - height)/2;

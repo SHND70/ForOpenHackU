@@ -1652,12 +1652,12 @@ GameObject:
   - component: {fileID: 114003767942799208}
   - component: {fileID: 114581785491664666}
   - component: {fileID: 114238472067208310}
-  - component: {fileID: 8839236453129611118}
-  - component: {fileID: 4419143448552073438}
-  - component: {fileID: 2760390110453019038}
-  - component: {fileID: 423586206141894419}
+  - component: {fileID: 3220926537132511871}
+  - component: {fileID: 540035986835118449}
+  - component: {fileID: 6703445589754701706}
+  - component: {fileID: 3409026714409449653}
   - component: {fileID: 95528647228267506}
-  - component: {fileID: 6181489792472242769}
+  - component: {fileID: 4661734518481887731}
   m_Layer: 0
   m_Name: Koharu
   m_TagString: Untagged
@@ -1754,7 +1754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BlendMode: 2
   EyeOpening: 1
---- !u!114 &8839236453129611118
+--- !u!114 &3220926537132511871
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1766,7 +1766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 702f05e81266375468e2b47006338cf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4419143448552073438
+--- !u!114 &540035986835118449
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1778,7 +1778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e23066d7f6cfa354d91d0033239622a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2760390110453019038
+--- !u!114 &6703445589754701706
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1791,7 +1791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultPoseIndex: 0
---- !u!114 &423586206141894419
+--- !u!114 &3409026714409449653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1824,7 +1824,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6181489792472242769
+--- !u!114 &4661734518481887731
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
