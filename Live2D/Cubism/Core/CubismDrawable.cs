@@ -10,9 +10,10 @@ using Live2D.Cubism.Core.Unmanaged;
 using Live2D.Cubism.Framework;
 using UnityEngine;
 
-
+//ADDED(関連ボーン)
 namespace Live2D.Cubism.Core
 {
+
     /// <summary>
     /// Single <see cref="CubismModel"/> drawable.
     /// </summary>
@@ -59,8 +60,7 @@ namespace Live2D.Cubism.Core
         /// Unmanaged drawables from unmanaged model.
         /// </summary>
         private CubismUnmanagedDrawables UnmanagedDrawables { get; set; }
-
-
+        
         /// <summary>
         /// <see cref="UnmanagedIndex"/> backing field.
         /// </summary>

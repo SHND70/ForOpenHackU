@@ -10,7 +10,6 @@ public class ScreenShot : MonoBehaviour
     // Start is called before the first frame update
 
     public string printName;
-    private SpriteRenderer sr;
 
     public Text imageName;
     
