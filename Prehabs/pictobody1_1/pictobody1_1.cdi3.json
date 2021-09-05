@@ -1,0 +1,102 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Body",
+			"GroupId": "",
+			"Name": "体"
+		},
+		{
+			"Id": "atama",
+			"GroupId": "",
+			"Name": "頭"
+		},
+		{
+			"Id": "migite",
+			"GroupId": "",
+			"Name": "右手"
+		},
+		{
+			"Id": "hidarite",
+			"GroupId": "",
+			"Name": "左手"
+		},
+		{
+			"Id": "migitekou",
+			"GroupId": "",
+			"Name": "右手の甲"
+		},
+		{
+			"Id": "hidaritekou",
+			"GroupId": "",
+			"Name": "左手の甲"
+		},
+		{
+			"Id": "migiasi",
+			"GroupId": "",
+			"Name": "右足"
+		},
+		{
+			"Id": "hidariasi",
+			"GroupId": "",
+			"Name": "左足"
+		},
+		{
+			"Id": "migisune",
+			"GroupId": "",
+			"Name": "右すね"
+		},
+		{
+			"Id": "hidarisune",
+			"GroupId": "",
+			"Name": "左すね"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part5",
+			"Name": "体"
+		},
+		{
+			"Id": "Part6",
+			"Name": "頭"
+		},
+		{
+			"Id": "Part7",
+			"Name": "胴"
+		},
+		{
+			"Id": "Part",
+			"Name": "右手"
+		},
+		{
+			"Id": "Part2",
+			"Name": "左手"
+		},
+		{
+			"Id": "Part3",
+			"Name": "右足"
+		},
+		{
+			"Id": "Part4",
+			"Name": "左足"
+		},
+		{
+			"Id": "Part8",
+			"Name": "右手の甲"
+		},
+		{
+			"Id": "Part9",
+			"Name": "左手の甲"
+		},
+		{
+			"Id": "Part11",
+			"Name": "右すね"
+		},
+		{
+			"Id": "Part10",
+			"Name": "左すね"
+		}
+	]
+}
