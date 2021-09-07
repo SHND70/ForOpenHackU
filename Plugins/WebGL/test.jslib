@@ -12,12 +12,14 @@ var Plugin = {
       },
     email: "HackU@gmail.com",
     pass: "abcdefg",
-    db: ""
+    db: "",
+    st: ""
   },
   Firestore: function() {
       // firebaseÇÃèâä˙âª
       firebase.initializeApp(params.conf);
       params.db = firebase.firestore();
+      params.st = firebase.storage().ref();
   },
   Get: function(col, doc){
     params.db.collection(PtoS(col)).doc(PtoS(doc))
@@ -37,7 +39,7 @@ var Plugin = {
   var add = {};
   add[PtoS(key)] = PtoS(val);
     //params.db.collection("users").doc("adder").set({
-      params.db.collection(PtoS(col)).doc(PtoS(doc)).set(add)
+    params.db.collection(PtoS(col)).doc(PtoS(doc)).set(add)
     .catch(function(){
       console.log("send failed");
     })
@@ -60,17 +62,33 @@ var Plugin = {
     Module.refIntArray = new Int32Array(buffer, arg, len);
     var arr = [];
     for(var i=0; i<len; i++){
-      arr.push(Module.refIntArray[i]);
+      arr.push(String(Module.refIntArray[i]));
     }
     
     var add = {};
     add[PtoS(key)] = arr;
+    
+    console.log(PtoS(col), PtoS(doc), PtoS(key), add);
     params.db.collection(PtoS(col)).doc(PtoS(doc)).set(add)
-    .catch(function(){
-      console.log("send failed");
+    .catch(function(e){
+      console.log("send failed, ", e);
     })
     .then(function(){
       console.log("send success");
+    });
+  },
+  UpPic: function(name, bytes, len){
+    var filename = PtoS(name);
+    filename = filename + ".png";
+    var ref = params.st.child(filename);
+    Module.refIntArray = new Uint8Array(buffer, bytes, len);
+    console.log(PtoS(name));
+    ref.put(Module.refIntArray)
+    .then(function(){
+      console.log("picture upload success");
+    })
+    .catch(function(e){
+      console.log("upload error: ", e);
     });
   },
   StrTest: function(ptr){
