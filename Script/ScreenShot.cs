@@ -4,9 +4,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
+using System.Runtime.InteropServices;
 
 public class ScreenShot : MonoBehaviour
 {
+    [DllImport("__Internal")]
+    private static extern void Firestore();
+
+    [DllImport("__Internal")]
+    private static extern void Login();
+
+    [DllImport("__Internal")]
+    private static extern void UpPic(string name, byte[] bytes, int len);
+
     // Start is called before the first frame update
 
     public string printName;
@@ -31,48 +41,38 @@ public class ScreenShot : MonoBehaviour
        StartCoroutine(Capture(width,height));
     }
 
+    public void Start() {
+        Firestore();
+        Login();
+    }
+
     public virtual IEnumerator Capture(int width,int height)
     {
         yield return new WaitForEndOfFrame();
 
         Texture2D tex = ScreenCapture.CaptureScreenshotAsTexture();
         int x = (tex.width - width)/2;
-        int y = (tex.height - height)/2;
+        int y = (tex.height - height)/2 + 100;
         Color[] colors = tex.GetPixels(x,y,width,height);
-        Texture2D saveTex = new Texture2D(width,height,TextureFormat.ARGB32,false);
+        Texture2D saveTex = new Texture2D(width,height/*,TextureFormat.RGB32,false*/);
         saveTex.SetPixels(colors);
 
-        /*Col = new int[colors.Length][];
-        for(int i = 0;i<colors.Length;i++){
-            Col[i] = new int[]{(int)(colors[i].r*255),(int)(colors[i].g*255),(int)(colors[i].b*255),(int)(colors[i].a*255)};
-            //Debug.Log(Col[i][0]+","+Col[i][1]+","+Col[i][2]+","+Col[i][3]);
+        string NullStr = null, EmptyStr = string.Empty, BlankStr = "";
+        if (printName != NullStr && printName != EmptyStr && printName != BlankStr)
+        {
+            /*
+            byte[] refIntArray = new byte[colors.Length * 3];
+            for (int i = 0; i < colors.Length; i++)
+            {
+                refIntArray[3 * i + 0] = (byte)(colors[i].r * 255);
+                refIntArray[3 * i + 1] = (byte)(colors[i].g * 255);
+                refIntArray[3 * i + 2] = (byte)(colors[i].b * 255);
+            }
+            */
+            byte[] refIntArray = saveTex.EncodeToPNG();
+            UpPic(printName, refIntArray, refIntArray.Length);
         }
-
-        int C = 0;
-        for(int w=0;w<width;w++){
-            for(int h = 0;h<height;h++){
-                Data[w,h] = Col[C];
-                Debug.Log(Data[w,h][0]+","+Data[w,h][1]+","+Data[w,h][2]+","+Data[w,h][3]);
-                C++;
-            }
-        }*/
-        Data = new int[colors.Length*4+2];
-        Data[0] = width;
-        Data[1] = height;
-        for(int i = 2;i<colors.Length*4+2;i++){
-            if(i%4 == 2){
-                Data[i] = (int)(colors[i].r*255);
-            }
-            else if(i%4 == 3){
-                Data[i] = (int)(colors[i].g*255);
-            }else if(i%4 == 0){
-                Data[i] = (int)(colors[i].b*255);
-            }else if(i%4 == 1){
-                Data[i] = (int)(colors[i].a*255);
-            }
-        }
-
-        File.WriteAllBytes("Assets/ScreenShots/"+printName + ".png",saveTex.EncodeToPNG());
+        //File.WriteAllBytes("Assets/ScreenShots/"+printName + ".png",saveTex.EncodeToPNG());
         yield break;
     }
 }
