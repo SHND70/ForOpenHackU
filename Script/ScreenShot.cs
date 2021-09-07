@@ -16,8 +16,10 @@ public class ScreenShot : MonoBehaviour
     public int width;
     public int height;
 
-    public int[,][] Data;
-    public int[][] Col;
+    /*public int[,][] Data;
+    public int[][] Col;*/
+
+    public int[] Data;
 
     public void Update()
     {
@@ -25,7 +27,7 @@ public class ScreenShot : MonoBehaviour
     }
 
     public void OnClick() {
-        Data = new int[width,height][];
+        //Data = new int[width,height][];
        StartCoroutine(Capture(width,height));
     }
 
@@ -40,7 +42,7 @@ public class ScreenShot : MonoBehaviour
         Texture2D saveTex = new Texture2D(width,height,TextureFormat.ARGB32,false);
         saveTex.SetPixels(colors);
 
-        Col = new int[colors.Length][];
+        /*Col = new int[colors.Length][];
         for(int i = 0;i<colors.Length;i++){
             Col[i] = new int[]{(int)(colors[i].r*255),(int)(colors[i].g*255),(int)(colors[i].b*255),(int)(colors[i].a*255)};
             //Debug.Log(Col[i][0]+","+Col[i][1]+","+Col[i][2]+","+Col[i][3]);
@@ -52,6 +54,21 @@ public class ScreenShot : MonoBehaviour
                 Data[w,h] = Col[C];
                 Debug.Log(Data[w,h][0]+","+Data[w,h][1]+","+Data[w,h][2]+","+Data[w,h][3]);
                 C++;
+            }
+        }*/
+        Data = new int[colors.Length*4+2];
+        Data[0] = width;
+        Data[1] = height;
+        for(int i = 2;i<colors.Length*4+2;i++){
+            if(i%4 == 2){
+                Data[i] = (int)(colors[i].r*255);
+            }
+            else if(i%4 == 3){
+                Data[i] = (int)(colors[i].g*255);
+            }else if(i%4 == 0){
+                Data[i] = (int)(colors[i].b*255);
+            }else if(i%4 == 1){
+                Data[i] = (int)(colors[i].a*255);
             }
         }
 
