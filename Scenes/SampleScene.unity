@@ -2027,7 +2027,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 2ca729b649a91dd48ab2da410a4bcb17, type: 3}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -2389,6 +2389,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 2ca729b649a91dd48ab2da410a4bcb17, type: 3}
+
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -2399,6 +2400,7 @@ MonoBehaviour:
     m_RichText: 0
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
+
     m_LineSpacing: 1
   m_Text: 
 --- !u!222 &1308901787
