@@ -41,7 +41,7 @@ public class ScreenShot : MonoBehaviour
        StartCoroutine(Capture(width,height));
     }
 
-    public void Start() {
+    public void Awake() {
         Firestore();
         Login();
     }

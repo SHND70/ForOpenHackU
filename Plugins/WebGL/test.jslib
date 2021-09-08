@@ -13,13 +13,17 @@ var Plugin = {
     email: "HackU@gmail.com",
     pass: "abcdefg",
     db: "",
-    st: ""
+    st: "",
+    once: true
   },
   Firestore: function() {
+    if(params.once){
       // firebase‚Ì‰Šú‰»
       firebase.initializeApp(params.conf);
       params.db = firebase.firestore();
       params.st = firebase.storage().ref();
+      params.once = false;
+    }
   },
   Get: function(col, doc){
     params.db.collection(PtoS(col)).doc(PtoS(doc))
