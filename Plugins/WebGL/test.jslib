@@ -78,18 +78,41 @@ var Plugin = {
     });
   },
   UpPic: function(name, bytes, len){
-    var filename = PtoS(name);
-    filename = filename + ".png";
+    var pass = PtoS(name);
+    var filename = pass + ".png";
     var ref = params.st.child(filename);
     Module.refIntArray = new Uint8Array(buffer, bytes, len);
-    console.log(PtoS(name));
+    console.log(pass);
     ref.put(Module.refIntArray)
     .then(function(){
       console.log("picture upload success");
+      params.db.collection("pics").doc("name").get()
+      .then(function (nameList){
+        var add = nameList.data();
+        add[pass] = filename;
+        console.log("current list: ", add);
+        params.db.collection("pics").doc("name").set(add);
+      })
+      .catch(function(e){
+        console.log("firestore updating failed: ", e);
+      });
     })
     .catch(function(e){
       console.log("upload error: ", e);
     });
+  },
+  GetList: function(){
+    var List;
+    params.db.collection("pics").doc("name")
+    .get().then(function (nameList) {
+      List = Object.values(nameList.data());
+      console.log("Got list: ", List);
+    })
+    .catch(function(e){
+      List = null;
+      console.log("could not get list: ", e);
+    });
+    return List;
   },
   StrTest: function(ptr){
     console.log(PtoS(ptr));
