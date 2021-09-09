@@ -31,14 +31,12 @@ public class ScreenShot : MonoBehaviour
 
     public int[] Data;
 
-    public void Update()
-    {
-        printName = imageName.text;
-    }
-
     public void OnClick() {
         //Data = new int[width,height][];
        StartCoroutine(Capture(width,height));
+    }
+
+    public void Update(){
     }
 
     public void Awake() {
@@ -47,14 +45,20 @@ public class ScreenShot : MonoBehaviour
     }
 
     public virtual IEnumerator Capture(int width,int height)
-    {
+    {   
+        try{
+            Destroy(this.transform.parent.gameObject.transform.Find("setRad(Clone)").gameObject);
+        }catch{
+            
+        }
+        
+        printName = imageName.text;
         yield return new WaitForEndOfFrame();
-
         Texture2D tex = ScreenCapture.CaptureScreenshotAsTexture();
         int x = (tex.width - width)/2;
-        int y = (tex.height - height)/2 + 100;
+        int y = (tex.height- height)/2;
         Color[] colors = tex.GetPixels(x,y,width,height);
-        Texture2D saveTex = new Texture2D(width,height/*,TextureFormat.RGB32,false*/);
+        Texture2D saveTex = new Texture2D(width,height,TextureFormat.RGB24,false);
         saveTex.SetPixels(colors);
 
         string NullStr = null, EmptyStr = string.Empty, BlankStr = "";
