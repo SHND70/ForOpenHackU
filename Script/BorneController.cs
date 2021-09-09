@@ -12,6 +12,9 @@ public class BorneController : MonoBehaviour
     public CubismParameter CP;
     public bool Dodestroy;
     public InputField inputField;
+    float InputNum;
+
+    //public InputVal iV; 
 
     //public InputVal iV; 
 
@@ -31,10 +34,18 @@ public class BorneController : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        //if(!iV.Changing){
+        try{
+            InputNum = float.Parse(inputField.text);
+        }catch{
+
+        }
+
+        if(Input.GetMouseButton(0)){
             CP.Value  = slider.value;
-            inputField.text = slider.value.ToString();
-        //}
-            
+            inputField.text = slider.value.ToString(); 
+        }else if(InputNum != CP.Value){
+            slider.value = InputNum; 
+            CP.Value = slider.value;
+        } 
     }
 }

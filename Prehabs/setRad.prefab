@@ -251,7 +251,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BC: {fileID: 932363683099578115}
-  Changing: 0
 --- !u!1 &3111450235860786877
 GameObject:
   m_ObjectHideFlags: 0
