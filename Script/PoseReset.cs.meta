@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: a70adaa697488414883d5995e7acd712
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - PictRoot: {fileID: 4128326084595011440, guid: 2b57ed8d5a4cc064586aecebf02ca01a,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
