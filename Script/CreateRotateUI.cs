@@ -25,7 +25,6 @@ public class CreateRotateUI : MonoBehaviour
 
     //UIたち
     public GameObject[] UIs;
-    public RaycastHit[] UIhits;
 
     //ボーン操作用
 
@@ -43,10 +42,9 @@ public class CreateRotateUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonUp(0)){
+        if(Input.GetMouseButtonDown(0)){
             Ray ray = camera.ScreenPointToRay(Input.mousePosition);
             hitCount =  raycaster.Raycast(ray, results);
-            UIhits = Physics.RaycastAll(ray, 100.0F);
 
             //rayの当たった数だけ
             for(int i = 0; i < hitCount; i++){
@@ -62,8 +60,6 @@ public class CreateRotateUI : MonoBehaviour
                     }
                 }
             }
-            
-            Debug.Log(UIhits.Length);
 
             //操作バーの生成
             if(hitCount != 0 && EventSystem.current.IsPointerOverGameObject() == false){      
