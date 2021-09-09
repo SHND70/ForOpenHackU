@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using Live2D.Cubism.Core;
 using Live2D.Cubism.Framework.Raycasting;
 
@@ -24,6 +25,7 @@ public class CreateRotateUI : MonoBehaviour
 
     //UIたち
     public GameObject[] UIs;
+    public RaycastHit[] UIhits;
 
     // Start is called before the first frame update
     void Start()
@@ -42,8 +44,7 @@ public class CreateRotateUI : MonoBehaviour
         if(Input.GetMouseButtonUp(0)){
             Ray ray = camera.ScreenPointToRay(Input.mousePosition);
             hitCount =  raycaster.Raycast(ray, results);
-
-            Debug.Log(hitCount);
+            UIhits = Physics.RaycastAll(ray, 100.0F);
 
             //rayの当たった数だけ
             for(int i = 0; i < hitCount; i++){
@@ -60,7 +61,10 @@ public class CreateRotateUI : MonoBehaviour
                 }
             }
             
-            if(hitCount != 0){        
+            Debug.Log(UIhits.Length);
+
+            //操作バーの生成
+            if(hitCount != 0 && EventSystem.current.IsPointerOverGameObject() == false){      
                 Child = (GameObject)Instantiate (RotateUI, Input.mousePosition, Quaternion.identity);
                 UIs = new GameObject[this.transform.childCount];
 
@@ -72,7 +76,7 @@ public class CreateRotateUI : MonoBehaviour
                 }
                 
 	    	    Child.transform.parent = this.transform;
-            }else if(hitCount == 0 && hitsObject != null){
+            }else if(hitCount == 0 && hitsObject != null && EventSystem.current.IsPointerOverGameObject() == false){
                 Destroy(this.transform.Find("setRad(Clone)").gameObject);
                 hitsObject = null;
             }
