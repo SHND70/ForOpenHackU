@@ -27,8 +27,6 @@ public class CreateRotateUI : MonoBehaviour
     public GameObject[] UIs;
     public RaycastHit[] UIhits;
 
-    //ボーン操作用
-
     // Start is called before the first frame update
     void Start()
     {

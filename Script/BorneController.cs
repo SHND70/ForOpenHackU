@@ -16,6 +16,8 @@ public class BorneController : MonoBehaviour
 
     //public InputVal iV; 
 
+    //public InputVal iV; 
+
     // Start is called before the first frame update
     void Start()
     {
