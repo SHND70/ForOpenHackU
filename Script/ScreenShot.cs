@@ -48,6 +48,7 @@ public class ScreenShot : MonoBehaviour
 
     public virtual IEnumerator Capture(int width,int height)
     {
+        Destroy(this.transform.parent.gameObject.transform.Find("setRad(Clone)").gameObject);
         yield return new WaitForEndOfFrame();
 
         Texture2D tex = ScreenCapture.CaptureScreenshotAsTexture();
